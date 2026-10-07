@@ -38,7 +38,13 @@ Prerequisites: Python 3.10+, Git.
 
 If a package is missing, outdated, or installed with the wrong version:
 
-1. **Ensure your virtual environment is active:**
+1. **Ensure you created the virtual environment:**
+     ```bash
+     python -m venv .venv 
+     ```
+  Then you activate the environment with following step in Setup.
+  
+2. **Ensure your virtual environment is active:**
    - Linux / macOS / Git Bash:
      ```bash
      source .venv/Scripts/activate
@@ -48,7 +54,7 @@ If a package is missing, outdated, or installed with the wrong version:
      .venv\Scripts\Activate.ps1
      ```
 
-2. **Re-sync pinned packages with `requirements.txt`:**
+3. **Re-sync pinned packages with `requirements.txt`:**
    Force pip to reinstall the exact pinned versions specified in the repository:
    ```bash
    pip install --force-reinstall -r requirements.txt

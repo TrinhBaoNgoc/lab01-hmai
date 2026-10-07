@@ -5,8 +5,8 @@ A starter repository for the CSC10014 Smart Virtual Assistant project.
 ## Setup
 Prerequisites: Python 3.10+, Git. 
   
-    git clone git@github.com:<you>/lab01-starter.git 
-    cd lab01-starter 
+    git clone git@github.com:<you>/lab01-hmai.git 
+    cd lab01-hmai 
     python -m venv .venv 
     source .venv/bin/activate            # Windows: .venv\Scripts\Activate.ps1 
     pip install -r requirements.txt 

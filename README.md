@@ -9,7 +9,7 @@ Prerequisites: Python 3.10+, Git.
   git clone [https://github.com/TrinhBaoNgoc/lab01-hmai.git](https://github.com/TrinhBaoNgoc/lab01-hmai.git)
   cd lab01-hmai 
   python -m venv .venv 
-  source .venv/Scripts/activate            # Windows: .venv\Scripts\Activate.ps1 
+  source .venv/bin/activate            # Windows: .venv\Scripts\Activate.ps1 
   
   # UPDATE PIP IF USING AN OLDER VERSION:
   python -m pip install --upgrade pip
